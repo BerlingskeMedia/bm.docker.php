@@ -28,6 +28,7 @@ RUN LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php -y \
 		php7.2-mbstring \
 		php7.2-gd     \
 		php7.2-imagick \
+		php7.2-xml \
 		sudo          \
     && apt-get -y clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
